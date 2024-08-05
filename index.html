@@ -3,9 +3,103 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="index.css">
+  <script src="index.js"></script>
+  <script src="https://kit.fontawesome.com/b5521bb0d1.js" crossorigin="anonymous"></script>
   <title>Document</title>
 </head>
 <body>
-  
+  <div id="home" class="header" >
+    <div class="container">
+      <nav>
+        <img src="images/logo2.png" alt="LM" id="logo">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#">Portfolio</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="header-text">
+        <p>Full Stack Developer</p>
+        <h1>Hi, I'm <span>Lokendra <br>Mahale</span> From India </h1>
+      </div>
+    </div>
+  </div>
+
+  <!---------About--------->
+
+  <div id="about">
+    <div class="container">
+      <div class="row">
+        <div class="col-1">
+          <img src="images/user.jpeg" alt="">
+        </div>
+        <div class="col-2">
+          <h1 class="sub-title">About me</h1>
+          <p>I am a creative designer and developer, who aims to work with small businesses and marginalized communities to bring their passions to life. I offer both design and development services of web applications or websites!</p>
+          <div class="tab-titles">
+            <p class="tab-links active-links" onclick="openTab('Skills')">Skills</p>
+            <p class="tab-links" onclick="openTab('Experience')">Experience</p>
+            <p class="tab-links" onclick="openTab('Education')">Education</p>
+          </div>
+          <div class="tab-contents active-tab" id="Skills">
+            <ul>
+              <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+              <li><span>Web Development</span><br>Web App Development</li>
+              <li><span>App Development</span><br>Building Android/iOS apps</li>
+            </ul>
+          </div>
+          <div class="tab-contents" id="Experience">
+            <ul>
+              <li><span>2024-current</span><br>Web Developer: Tech Matrix</li>
+              <li><span>2023-2024</span><br>ABC Company</li>
+              <li><span>2022-2023</span><br>XYZ</li>
+            </ul>
+          </div>
+          <div class="tab-contents" id="Education">
+            <ul>
+              <li><span>MCA-current</span><br>Maulana Azad National Institute of Technology,Bhopal</li>
+              <li><span>BCA</span><br>Devi Ahilya Vishwavidhyalay,Indore</li>
+              <li><span>School</span><br>Holy Trinity H.S. School,Dewas</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!---------Services------->
+  <div id="services">
+    <div class="container">
+      <h1 class="sub-title">My Services</h1>
+      <div class="services-list">
+        <div>
+          <i class="fa-solid fa-code"></i>
+          <h2>Web Design</h2>
+          <p>I am a professional web designer with expertise in creating visually stunning, responsive websites. Skilled in HTML, CSS, JavaScript, and Adobe Creative Suite, I deliver user-centric designs that enhance brand identity and provide seamless experiences across all devices.</p>
+          <a href="#">Learn more</a>
+        </div>
+        <div>
+          <i class="fa-solid fa-crop"></i>
+          <h2>UI/UX Design</h2>
+          <p>I am a professional web designer with expertise in creating visually stunning, responsive websites. Skilled in HTML, CSS, JavaScript, and Adobe Creative Suite, I deliver user-centric designs that enhance brand identity and provide seamless experiences across all devices.</p>
+          <a href="#">Learn more</a>
+        </div>
+        <div>
+          <i class="fa-brands fa-app-store"></i>
+          <h2>App Design</h2>
+          <p>I am a professional web designer with expertise in creating visually stunning, responsive websites. Skilled in HTML, CSS, JavaScript, and Adobe Creative Suite, I deliver user-centric designs that enhance brand identity and provide seamless experiences across all devices.</p>
+          <a href="#">Learn more</a>
+        </div>
+      </div>
+    </div>
+  </div>
+ <div id="portfolio">
+    <div class="container">
+      <h1 class="sub-title">My Work</h1>
+    </div>
+ </div>
 </body>
 </html>
